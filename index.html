@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-mail Collection</title>
+</head>
+<body>
+    <main>
+        <div>
+            <label for="name">Full Name:</label>
+            <input 
+                id="name" 
+                type="text" 
+                name="name"
+                required 
+                placeholder="That includes Middle Initial"
+            />
+        </div>
+
+        <div>
+            <label for="email">E-mail Address:</label>
+            <input 
+                id="email" 
+                type="text" 
+                name="email"
+                required 
+            />
+        </div>
+
+        <div>
+            <label for="form-message">Your message:</label>
+            <textarea
+              id="form-message"
+              name="message"
+              autofocus="on"
+              required
+              maxlength="200"
+              placeholder="Anything else we can help you with?"
+            ></textarea>
+          </div>
+    </main>
+</body>
+</html>
